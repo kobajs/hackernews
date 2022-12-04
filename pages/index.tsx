@@ -26,7 +26,7 @@ export default function Home() {
 
         {data && <List data={data} />}
 
-        {loading && <p>Loading...</p>}
+        {loading && <div className="loader" />}
       </main>
     </div>
   );

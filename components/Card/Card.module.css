@@ -16,7 +16,7 @@
 }
 
 .card:hover {
-  color: #993399;
+  color: var(--c-primary);
   box-shadow: 7px 10px 8px 0px rgba(0, 0, 0, 0.16);
 }
 
