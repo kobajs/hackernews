@@ -13,14 +13,10 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+ul {
+  padding: 0;
+  list-style-type: none;
 }

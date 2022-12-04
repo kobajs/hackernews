@@ -1,0 +1,50 @@
+.card {
+  border: 1px solid currentColor;
+  border-radius: 16px;
+  text-align: left;
+
+  width: 100%;
+  max-width: 300px;
+
+  transition: color 200ms ease-in, box-shadow 200ms ease-in;
+}
+
+@media (min-width: 400px) {
+  .card {
+    max-width: 700px;
+  }
+}
+
+.card:hover {
+  color: #993399;
+  box-shadow: 7px 10px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.cardContent {
+  display: block;
+  padding: 16px;
+}
+
+.title {
+  margin-bottom: 12px;
+
+  font-size: 16px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.author {
+  margin-bottom: 0;
+  
+  font-size: 14px;
+  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.skeleton {
+  filter: blur(3px);
+}
